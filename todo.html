@@ -10,14 +10,14 @@
     <body>
         <h1>To-do list</h1>
         <form>
+            <h2 id="message"></h2>
             <label for="nowe" id="xd">Wpisz nowe zadanie:</label><br><br>
             <input type="text" id='nowe' name="nowe"  maxlength="75"  value="" ><br>
             <button type="button" onclick="todolist()"> dodaj </button><br><br><br><br>
-            <div id="lista"> </div>
+            <ol id="lista"> </ol>
             <div id="usuniecie"><button type="button" id="usuniecie" onclick="usun()"> usuń </button></div>
         </form>
-        
-      
+
         <script src="todo.js" async defer></script>
     </body>
 </html>
