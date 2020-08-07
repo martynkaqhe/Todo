@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+ <html class="no-js"> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>To-do list</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="todo.css">
+    </head>
+    <body>
+        <h1>To-do list</h1>
+        <form>
+            <label for="nowe" id="xd">Wpisz nowe zadanie:</label><br><br>
+            <input type="text" id='nowe' name="nowe"  maxlength="75"  value="" ><br>
+            <button type="button" onclick="todolist()"> dodaj </button><br><br><br><br>
+            <div id="lista"> </div>
+            <div id="usuniecie"><button type="button" id="usuniecie" onclick="usun()"> usuń </button></div>
+        </form>
+        
+      
+        <script src="todo.js" async defer></script>
+    </body>
+</html>
